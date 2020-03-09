@@ -1,0 +1,84 @@
+---
+title: "Hands On with Shiny"
+subtitle: "A beginner's workshop with the `shiny` package"
+author: |
+  Greg Sutcliffe, Community Data Scientist, Ansible<br/>
+  Handle: gwmngilfen
+output:
+  ioslides_presentation:
+    incremental: false
+    transition: 0
+    widescreen: yes
+ #   css: custom.css
+    logo: ansible_blue.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Welcome!
+
+This workshop aims to give you the knowledge & tools to build interactive
+applications in R using Shiny. You'll walk away having looked at:
+
+* The basics of Shiny code, and how it relates to other R code
+* Examples of different inputs & outputs, and linkng them together
+* How to debug Shiny when something doesn't work
+* Hosting Shiny on Shinyapps.io
+
+We'll also discuss other topics along the way (such as layouts, development
+practives, caching & preprocessing, etc.), depending on **your** thoughts and
+questions. Please do join in!
+
+## What is Shiny?
+
+From [https://shiny.rstudio.com](https://shiny.rstudio.com):
+
+    Shiny is an R package that makes it easy to build 
+    interactive web apps straight from R. 
+
+Unpacking that:
+
+* "straight from R" - no need to learn another language
+* "an R package" - makes it easy to deploy
+* "easy" - you be the judge :)
+
+## Ground rules
+
+* Please join in!
+  * This is an interactive workshop - I encourage debate, questioning,
+    clarifications, etc. We're here to learn, but also to enjoy.
+* There are no stupid questions
+  * If you think your question is a "stupid question" then I'm not doing my job
+    well enough, and you should *definitely* ask :) 
+* Using your own data is fine (indeed, it's great)
+  * I've provided a dataset with the excercises, but you should feel free to
+    go off-script and experiment with your own data
+
+## Agenda
+
+* This slide deck (almost done!) [10-15 mins]
+* Worked excercises together [45 mins]
+* Recap [5 mins]
+* Unstructured time [whatever is left]
+
+For the unstructured time, we will have a chat after the recap and decide what
+will be best for you all with the time remaining - more examples, other topics,
+or getting started on your own applications are all possible.
+
+## The workbook {.flexbox .vcenter}
+
+<h2><center>git clone</center></h2>
+<h2><center>https://github.com/GregSutcliffe/shinyworkshop</center></h2>
+<br/>
+<h2><center>Let's get started!</center></h2>
+
+## {.flexbox .vcenter}
+
+<h1><center>Thanks!</center></h1>
+<br/>
+<h2><center>gsutclif@redhat.com</center></h2>
+<h3><center>@gwmngilfen(:fosstodon.org) - Twitter / Mastodon</center></h3>
+<h3><center>gwmngilfen(:matrix.org) - IRC / Matrix</center></h3>
+<h4><center>(in #ansible-community)</center></h4>
